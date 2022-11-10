@@ -1,19 +1,45 @@
 ---
-description: 'A php framework for people with mvvm background knowledge,'
+description: 'Move Library Management System'
 ---
 
-# Yuga Framework
+# lms
 
-To get started you just need one command `composer create-project yuga/yuga your-project-folder`
+This template should help get you started developing with Vue 3 in Vite.
 
-Yuga has two programming paradigms it uses i.e mvvm and mvc, the developer gets to decide which paradigm they want to use but by default the framework comes set with mvvm structure.  
-If you want to change this setting, you go to `environment/.env` file and locate the paradigm key, change it to mvc and you are done.
+## Recommended IDE Setup
 
-**Local Development Server**
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-If you have PHP installed locally and you would like to use PHP's built-in development server to launch your application, you may use the `start` Yuga command. This command will start a development server at `http://localhost:8000`:
+## Customize configuration
 
-```bash
-php yuga start
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
 ```
 
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
